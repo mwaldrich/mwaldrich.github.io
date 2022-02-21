@@ -3,7 +3,7 @@ import { useGLTF, useMatcapTexture } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
 
 export default function Pyramid() {
-  const { nodes } = useGLTF('/level-react-draco.glb')
+  const { nodes } = useGLTF('./level-react-draco.glb')
   const [matcap] = useMatcapTexture('489B7A_A0E7D9_6DC5AC_87DAC7', 1024)
   const [spring, api] = useSpring(() => ({ rotation: [0, 0, 0], config: { mass: 5, tension: 200 } }), [])
   useEffect(() => {

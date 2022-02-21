@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
 
 export default function Sudo() {
-  const { nodes } = useGLTF('/level-react-draco.glb')
+  const { nodes } = useGLTF('./level-react-draco.glb')
   const [spring, api] = useSpring(() => ({ rotation: [Math.PI / 2, 0, 0.29], config: { friction: 40 } }), [])
   useEffect(() => {
     let timeout
