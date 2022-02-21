@@ -1,15 +1,8 @@
 {
-  "name": "threejs-journey-level-1",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "A recreation of the first level from https://threejs-journey.com.",
-  "homepage": "https://mwaldrich.io/personal-website",
-  "keywords": [
-    "animations",
-    "composition",
-    "effects",
-    "bruno-simon",
-    "react-spring"
-  ],
+  "description": "Mark Aldrich",
+  "homepage": "https://mwaldrich.io/",
   "main": "src/index.js",
   "dependencies": {
     "@react-spring/three": "9.4.3",
