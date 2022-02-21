@@ -6,6 +6,7 @@ import Camera from './components/Camera'
 import Cactus from './components/Cactus'
 import Icon from './components/Icon'
 import Pyramid from './components/Pyramid'
+import { Github } from './components/Github'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Cactus />
           <Icon />
           <Pyramid />
+          <Github />
         </group>
       </PresentationControls>
     </Canvas>
