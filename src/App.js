@@ -8,6 +8,7 @@ import Icon from './components/Icon'
 import Pyramid from './components/Pyramid'
 import { Github } from './components/Github'
 import { LinkedIn } from './components/LinkedIn'
+import { Projects } from './components/Projects'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Pyramid />
           <Github />
           <LinkedIn />
+          <Projects />
         </group>
       </PresentationControls>
     </Canvas>
