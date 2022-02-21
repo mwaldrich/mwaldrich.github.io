@@ -6,8 +6,6 @@ import { useTexture } from '@react-three/drei'
 export function Github(props) {
 
     const texture = useTexture("./github.png");
-    const marbleTexture = React.useMemo(() => new TextureLoader().load("textures/marble.jpg"), []);
-    const redMarbleTexture = React.useMemo(() => new TextureLoader().load("textures/red-marble.jpg"), []);
 
     const ref = React.useRef();
 
