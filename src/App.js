@@ -9,8 +9,11 @@ import Pyramid from './components/Pyramid'
 import { Github } from './components/Github'
 import { LinkedIn } from './components/LinkedIn'
 import { Projects } from './components/Projects'
+import Yahtzee from './components/Yahtzee'
 
 export default function App() {
+  // <Projects />
+  // <Yahtzee />
   return (
     <Canvas flat dpr={[1, 2]} camera={{ fov: 25, position: [0, 1.25, 6] }}>
       <color attach="background" args={['#e0b7ff']} />
@@ -25,7 +28,6 @@ export default function App() {
           <Pyramid />
           <Github />
           <LinkedIn />
-          <Projects />
         </group>
       </PresentationControls>
     </Canvas>
