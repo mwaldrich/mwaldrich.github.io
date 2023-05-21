@@ -21,8 +21,8 @@ export default function App() {
       <PresentationControls global zoom={0.8} rotation={[0, -Math.PI / 4, 0]} polar={[0, Math.PI / 4]} azimuth={[-Math.PI / 4, Math.PI / 4]}>
         <group position-y={-0.75} dispose={null}>
           <Level />
-          <Sudo />
           <Camera />
+          <Sudo />
           <Cactus />
           <Icon />
           <Pyramid />
