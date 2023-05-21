@@ -28,6 +28,7 @@ export default function App() {
           <Pyramid />
           <Github />
           <LinkedIn />
+          <Yahtzee />
         </group>
       </PresentationControls>
     </Canvas>
