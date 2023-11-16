@@ -52,9 +52,7 @@ export default function Yahtzee(props) {
       rotation={[0.5, 0.5, 0.5]}
       onPointerEnter={() => setHovered(true)}
       onPointerLeave={() => setHovered(false)}
-      onPointerDown={() => {window.open("https://mwaldrich.io/yahtzee/", '_blank');}}
-      onTouchStart={() => {window.open("https://mwaldrich.io/yahtzee/", '_blank');}}
-      //{...spring}
+      onClick={() => {window.open("https://mwaldrich.io/yahtzee/", '_blank');}}
       >
       <mesh geometry={nodes.dice_1.geometry} material={materials.dice}>
         // Set color to yellow if hovered
