@@ -22,13 +22,13 @@ export default function App() {
         <group position-y={-0.75} dispose={null}>
           <Level />
           <Camera />
-          <Sudo />
           <Cactus />
           <Icon />
           <Pyramid />
           <Github />
           <LinkedIn />
           <Yahtzee />
+          <Sudo />
         </group>
       </PresentationControls>
     </Canvas>

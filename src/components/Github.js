@@ -21,7 +21,7 @@ export function Github(props) {
         <animated.mesh
             ref={ref}
             position={[0.65, 1.2, -0.9]}
-            onPointerDown={() => {window.open("https://github.com/mwaldrich", '_blank');}}
+            onClick={() => {window.open("https://github.com/mwaldrich", '_blank');}}
              >
             <boxBufferGeometry args={[0.3, 0.3, 0.01]} />
             <meshPhongMaterial

@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { useGLTF, useMatcapTexture } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
-import Yahtzee from './Yahtzee'
 
 export default function Pyramid() {
   const { nodes } = useGLTF('./level-react-draco.glb')

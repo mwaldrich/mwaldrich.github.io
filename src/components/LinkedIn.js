@@ -21,7 +21,7 @@ export function LinkedIn(props) {
         <animated.mesh
             ref={ref}
             position={[0.65, 0.8, -0.9]}
-            onPointerDown={() => {window.open("https://www.linkedin.com/in/mark-aldrich-1467b2106/", '_blank');}}
+            onClick={() => {window.open("https://www.linkedin.com/in/mark-aldrich-1467b2106/", '_blank');}}
              >
             <boxBufferGeometry args={[0.3, 0.3, 0.01]} />
             <meshPhongMaterial

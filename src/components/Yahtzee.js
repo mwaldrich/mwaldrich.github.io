@@ -29,6 +29,19 @@ export default function Yahtzee(props) {
   // ref.current.children[0].material.color.set(0xffff00)
   // ref.current.children[0].material.color.set(0xffffff)
 
+  // Here lies my half-broken code to get an HTML popup when hovering.
+  // It's laggy, and doesn't work well. But if I ever want to get this
+  // fully working, it should be a good starting point. Put this in the
+  // mesh next to the existing hover code.
+  /*
+        { hovered?
+          <Html pointerEvents='none'>
+            <div className="annotation">Hello world!</div>
+          </Html>
+        : <></>
+        }
+  */
+
   return (
     <group 
       {...props} 
@@ -47,12 +60,6 @@ export default function Yahtzee(props) {
         // Set color to yellow if hovered
         { hovered?
           <meshStandardMaterial color={'yellow'} />
-        : <></>
-        }
-        { hovered?
-          <Html pointerEvents='none'>
-            <div className="annotation">Hello world!</div>
-          </Html>
         : <></>
         }
       </mesh>
