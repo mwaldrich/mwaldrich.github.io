@@ -10,10 +10,12 @@ import { Github } from './components/Github'
 import { LinkedIn } from './components/LinkedIn'
 import { Projects } from './components/Projects'
 import Yahtzee from './components/Yahtzee'
+import Augur from './components/Augur'
 
 export default function App() {
   // <Projects />
   // <Yahtzee />
+  // <Pyramid />
   return (
     <Canvas flat dpr={[1, 2]} camera={{ fov: 25, position: [0, 1.25, 6] }}>
       <color attach="background" args={['#e0b7ff']} />
@@ -24,11 +26,11 @@ export default function App() {
           <Camera />
           <Cactus />
           <Icon />
-          <Pyramid />
           <Github />
           <LinkedIn />
           <Yahtzee />
           <Sudo />
+          <Augur />
         </group>
       </PresentationControls>
     </Canvas>
