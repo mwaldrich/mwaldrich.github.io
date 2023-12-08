@@ -11,6 +11,7 @@ import { LinkedIn } from './components/LinkedIn'
 import { Projects } from './components/Projects'
 import Yahtzee from './components/Yahtzee'
 import Augur from './components/Augur'
+import { AugurNew } from './components/Augur'
 
 export default function App() {
   // <Projects />
@@ -30,7 +31,7 @@ export default function App() {
           <LinkedIn />
           <Yahtzee />
           <Sudo />
-          <Augur />
+          <AugurNew />
         </group>
       </PresentationControls>
     </Canvas>
